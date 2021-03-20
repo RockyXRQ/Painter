@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="user">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{4f99bd53-2121-44c1-b475-af3344adef9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\inc">
+      <UniqueIdentifier>{67c039dd-d697-4dd1-bab9-d0ee63ed7008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\src">
+      <UniqueIdentifier>{d0ac64c2-cb69-4588-9d61-fe9bc05cc1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver\assets">
+      <UniqueIdentifier>{883b521e-4e89-4e02-a395-465d43def77e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="painter.cpp">
+      <Filter>driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="painter.h">
+      <Filter>driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="marco.h">
+      <Filter>driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>driver\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="flash_bang.mp3">
+      <Filter>driver\assets</Filter>
+    </Media>
+    <Media Include="raindrop_leaf.mp3">
+      <Filter>driver\assets</Filter>
+    </Media>
+    <Media Include="raindrop_water.mp3">
+      <Filter>driver\assets</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
