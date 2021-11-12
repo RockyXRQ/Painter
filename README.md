@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg) 
 
-Painter (池塘夜降彩色雨) 题目要求
+题目要求
 
 设计程序演示美丽的"池塘夜降彩色雨"景色: 色彩缤纷的雨点飘飘洒洒的从天而降，滴滴入水有声，溅起圈圈微澜。要求(带*项为选做要求):
 
